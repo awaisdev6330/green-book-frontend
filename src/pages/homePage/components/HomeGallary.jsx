@@ -16,43 +16,43 @@ const incentives = [
   {
     id: 1,
     imageSrc:
-      "https://images.unsplash.com/photo-1532506359657-a863476b06b2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/assets/images/gallary_images/gallary1.jpg",
   },
   {
     id: 2,
     imageSrc:
-      "https://plus.unsplash.com/premium_photo-1675342786681-e33a19414cfd?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/assets/images/gallary_images/gallary1.jpg",
   },
   {
     id: 3,
     imageSrc:
-      "https://images.unsplash.com/photo-1535882832-ac75c142f79f?q=80&w=1536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/assets/images/gallary_images/gallary1.jpg",
   },
 
   {
     id: 4,
     imageSrc:
-      "https://images.unsplash.com/photo-1488655980602-a2d28399df6c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/assets/images/gallary_images/gallary1.jpg",
   },
   {
     id: 5,
     imageSrc:
-      "https://images.unsplash.com/photo-1488655980602-a2d28399df6c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/assets/images/gallary_images/gallary1.jpg",
   },
   {
     id: 6,
     imageSrc:
-      "https://images.unsplash.com/photo-1535882832-ac75c142f79f?q=80&w=1536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/assets/images/gallary_images/gallary1.jpg",
   },
   {
     id: 7,
     imageSrc:
-      "https://images.unsplash.com/photo-1532506359657-a863476b06b2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/assets/images/gallary_images/gallary1.jpg",
   },
   {
     id: 8,
     imageSrc:
-      "https://plus.unsplash.com/premium_photo-1675342786681-e33a19414cfd?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/assets/images/gallary_images/gallary1.jpg",
   },
 ];
 
@@ -76,11 +76,11 @@ export default function HomeGallerySection() {
                 the MNS University of Agriculture, Multan.
               </p>
             </div>
-            <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
+            <div className="aspect-[3/2] aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
               <img
-                src="/assets/images/about-us.jpg"
+                src="/assets/images/gallary_images/gallary.png"
                 alt="No image Fecth"
-                className="object-cover object-center"
+                className="object-center"
               />
             </div>
           </div>

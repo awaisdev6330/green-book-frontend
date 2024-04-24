@@ -74,14 +74,14 @@ const testimonials = [
 export default function TestimonialSection() {
   return (
     <>
-      <div className="bg-gray-900 py-24 sm:py-32">
+      <div className="bg-gray-900 py-10 sm:py-10">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center">
             <p className="text-xl leading-8 text-gray-200 font-semibold">
               Previous Comments.
             </p>
           </div>
-          <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
+          <div className="mx-auto mt-10 flow-root max-w-2xl sm:mt-10 lg:mx-0 lg:max-w-none">
             <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
               {testimonials.map((testimonial) => (
                 <div

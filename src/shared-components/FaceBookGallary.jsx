@@ -9,14 +9,41 @@ export default function FacebookGallarySection() {
       <main>
         <div className="mt-10">
           <section aria-labelledby="sale-heading">
-            <div className={isDarkMode ? "overflow-hidden pt-40 sm:pt-14 bg-white" : "overflow-hidden pt-40 sm:pt-14 bg-gray-900"}>
+            <div
+              className={
+                isDarkMode
+                  ? "overflow-hidden pt-40 sm:pt-14 bg-white"
+                  : "overflow-hidden pt-40 sm:pt-14 bg-gray-900"
+              }
+            >
               <div className={isDarkMode ? "bg-white" : "bg-gray-900"}>
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                  <div className={isDarkMode ? "relative pb-26 pt-60 sm:pb-24 bg-white" : "relative pb-26 pt-60 sm:pb-24 bg-gray-900"}>
+                  <div
+                    className={
+                      isDarkMode
+                        ? "relative pb-26 pt-60 sm:pb-24 bg-white"
+                        : "relative pb-26 pt-60 sm:pb-24 bg-gray-900"
+                    }
+                  >
+                    <div className="flex space-x-6 sm:-mt-60 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
+                      <Link to="https://www.facebook.com/thechildrengreenbook">
+                        <div className="flex-shrink-0">
+                          <img
+                            className="h-24 w-24 rounded-lg object-cover md:h-24 md:w-24 m-4"
+                            src="/assets/images/fb_banner_images/fb_icon.png"
+                            alt="No image Fetch"
+                          />
+                        </div>
+                      </Link>
+                    </div>
                     <Link to="https://www.facebook.com/thechildrengreenbook">
                       <h2
                         id="sale-heading"
-                        className={isDarkMode ? "text-4xl font-bold tracking-tight text-gray-900 md:text-5xl m-1" : "text-4xl font-bold tracking-tight text-white md:text-5xl m-1"}
+                        className={
+                          isDarkMode
+                            ? "text-2xl font-bold tracking-tight text-gray-900 md:text-2xl m-4"
+                            : "text-2xl font-bold tracking-tight text-white md:text-2xl m-4"
+                        }
                       >
                         Visit Our
                         <br />
@@ -31,16 +58,22 @@ export default function FacebookGallarySection() {
                             <div className="flex-shrink-0">
                               <img
                                 className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                                src="https://thechildrengreenbook.net/assets/images/instagram/12.jpg"
+                                src="/assets/images/fb_banner_images/img1.jpg"
                                 alt="No image Fetch"
                               />
                             </div>
                           </Link>
                           <Link to="https://www.facebook.com/thechildrengreenbook">
-                            <div className={isDarkMode ? "mt-6 flex-shrink-0 sm:mt-0" : "mt-6 flex-shrink-0 sm:mt-0"}>
+                            <div
+                              className={
+                                isDarkMode
+                                  ? "mt-6 flex-shrink-0 sm:mt-0"
+                                  : "mt-6 flex-shrink-0 sm:mt-0"
+                              }
+                            >
                               <img
                                 className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                                src="https://thechildrengreenbook.net/assets/images/instagram/7.jpg"
+                                src="/assets/images/fb_banner_images/img2.jpg"
                                 alt="No image Fetch"
                               />
                             </div>
@@ -51,7 +84,7 @@ export default function FacebookGallarySection() {
                             <div className="flex-shrink-0">
                               <img
                                 className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                                src="https://thechildrengreenbook.net/assets/images/instagram/14.jpg"
+                                src="/assets/images/fb_banner_images/img3.jpg"
                                 alt="No image Fetch"
                               />
                             </div>
@@ -60,7 +93,7 @@ export default function FacebookGallarySection() {
                             <div className="mt-6 flex-shrink-0 sm:mt-0">
                               <img
                                 className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                                src="https://thechildrengreenbook.net/assets/images/instagram/12.jpg"
+                                src="/assets/images/fb_banner_images/img4.jpg"
                                 alt="No image Fetch"
                               />
                             </div>
@@ -71,7 +104,7 @@ export default function FacebookGallarySection() {
                             <div className="flex-shrink-0">
                               <img
                                 className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                                src="https://thechildrengreenbook.net/assets/images/instagram/15.jpg"
+                                src="/assets/images/fb_banner_images/img5.jpg"
                                 alt="No image Fetch"
                               />
                             </div>
@@ -80,7 +113,7 @@ export default function FacebookGallarySection() {
                             <div className="mt-6 flex-shrink-0 sm:mt-0">
                               <img
                                 className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                                src="https://thechildrengreenbook.net/assets/images/instagram/14.jpg"
+                                src="/assets/images/fb_banner_images/img6.jpg"
                                 alt="No image Fetch"
                               />
                             </div>

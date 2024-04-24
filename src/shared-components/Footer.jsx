@@ -109,7 +109,7 @@ export default function Footer() {
                 all topics related to Climate Change and allied matters such as
                 forestry, agriculture, horticulture and more.
               </p>
-              <div className="flex space-x-6">
+              <div className="flex space-x-4">
                 {navigation.social.map((item) => (
                   <Link
                     key={item.name}
@@ -117,12 +117,12 @@ export default function Footer() {
                     className={`${textColor} ${linkHoverColor}`}
                   >
                     <span className="sr-only">{item.name}</span>
-                    <item.icon className="h-6 w-6" aria-hidden="true" />
+                    <item.icon className="h-5 w-5" aria-hidden="true" />
                   </Link>
                 ))}
               </div>
             </div>
-            <div className="ms-12 mt-16 grid-cols-1 gap-8 xl:col-span-2 xl:mt-0">
+            <div className="ms-1 mt-16 grid-cols-1 gap-2 xl:col-span-2 xl:mt-0">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
                   <h3 className={`font-black ${textClass}`}>Contact Info</h3>
@@ -159,11 +159,10 @@ export default function Footer() {
           <div
             className={`mt-10 border-t ${borderColor} pt-8 sm:mt-10 lg:mt-10 text-center`}
           >
-            {" "}
             {/* Adjusted border color */}
             <Link to="https://schooleducation.southpunjab.gov.pk/">
               <p className={`font-bold text-sm leading-5 ${textColor}`}>
-                A project by School Education Department, South Punjab
+                A project by School Edu Department, South Punjab
               </p>
             </Link>
             <p className={`text-xs leading-5 ${textColor} mt-2`}>

@@ -2,7 +2,6 @@ import PlaceOrderSection from "./components/HomeOrder";
 import HomeIntroSection from "./components/HomeIntro";
 import HomeHeroSection from "./components/HomeHero";
 import HomeBannerSection from "./components/HomeBanner";
-import HomeValuesSection from "./components/HomeValues";
 import HomeAuthorSection from "./components/HomeAuthor";
 import HomeBookChapter from "./components/HomeBookChapter";
 import HomeMediaSection from "./components/HomeMedia";
@@ -29,9 +28,6 @@ export default function Home() {
 
         {/* Media section */}
         <HomeMediaSection />
-
-        {/* Values section */}
-        <HomeValuesSection />
 
         {/* Gallary */}
         <HomeGallerySection />

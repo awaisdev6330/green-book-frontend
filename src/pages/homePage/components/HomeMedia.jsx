@@ -9,10 +9,6 @@ export default function HomeMediaSection() {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Our Media
             </h2>
-            <p className="mt-6 text-base text-gray-600 ">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
-            </p>
           </div>
 
           <div className="mt-10 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
@@ -36,7 +32,7 @@ export default function HomeMediaSection() {
                     </h3>
                     <p
                       aria-hidden="true"
-                      className="mt-1 text-sm text-gray-800"
+                      className="mt-1 text-sm text-gray-800 button"
                     >
                       View Details
                     </p>

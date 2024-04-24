@@ -4,7 +4,7 @@ export default function HomeIntroSection() {
   return (
     <>
       <section aria-labelledby="cause-heading">
-        <div className="relative bg-gray-900 px-5 py-10 sm:px-6 sm:py-10 lg:px-16">
+        <div className="relative bg-gray-700 px-5 py-10 sm:px-6 sm:py-10 lg:px-16">
           <div className="absolute inset-0 overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1504036764568-17ae585d4619?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -14,7 +14,7 @@ export default function HomeIntroSection() {
           </div>
           <div
             aria-hidden="true"
-            className="absolute inset-0 bg-gray-900 bg-opacity-90"
+            className="absolute inset-0 bg-gray-700 bg-opacity-40"
           />
           <div className="relative mx-auto flex max-w-3xl flex-col items-center text-center">
             <h2
