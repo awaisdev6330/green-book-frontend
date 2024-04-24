@@ -78,7 +78,7 @@ export default function HomeGallerySection() {
             </div>
             <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
               <img
-                src="../../../../public/assets/images/about-us.jpg"
+                src="/assets/images/about-us.jpg"
                 alt="No image Fecth"
                 className="object-cover object-center"
               />
