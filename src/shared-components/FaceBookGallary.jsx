@@ -79,7 +79,7 @@ export default function FacebookGallarySection() {
                             </div>
                           </Link>
                         </div>
-                        <div className="flex space-x-6 sm:-mt-20 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
+                        <div className="flex space-x-6 sm:-mt-16 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                           <Link to="https://www.facebook.com/thechildrengreenbook">
                             <div className="flex-shrink-0">
                               <img
