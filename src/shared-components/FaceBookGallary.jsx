@@ -20,7 +20,7 @@ export default function FacebookGallarySection() {
                       >
                         Visit Our
                         <br />
-                        Facebook Page & Follow &rarr;
+                        Facebook Page &rarr;
                       </h2>
                     </Link>
 

@@ -167,21 +167,7 @@ export default function Header() {
                   Log in
                 </Link>
               </div>
-             {/* Toggle Theme Button */}
-      <button
-        onClick={toggleTheme}
-        className={`p-2 ms-4 rounded-full focus:outline-none ${
-          isDarkMode ? 'text-white bg-slate-800' : 'text-black bg-white'
-        }`}
-        aria-label="Toggle theme"
-      >
-        {isDarkMode ? (
-          <SunIcon className="h-6 w-6" />
-        ) : (
-          <MoonIcon className="h-6 w-6" />
-        )}
-      </button>
-              
+ 
             </div>
           </div>
         </Dialog.Panel>
